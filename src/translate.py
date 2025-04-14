@@ -19,7 +19,7 @@ def callAIToTranlate(selectedLang: str, txtToTranlate: str) -> str:
     response = ""
     text_to_send = txtToTranlate.decode('utf-8')
     chunks = split_into_chunks(text_to_send)
-    API_KEY = "AIzaSyDpIUFYVu-DEnzymeItn4DeqnWnFHUuGkxI"
+    API_KEY = "Not-REAL-KEY-AIzaSyDpIUFYVu-DEnzymeItn4DeqnWnFHUuGkxI"
     genai.configure(api_key=API_KEY)
 
     model_flash = genai.GenerativeModel('gemini-2.0-flash')
