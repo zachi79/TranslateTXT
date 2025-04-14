@@ -1,0 +1,2 @@
+            '**About**: This tool uses powerful AI and online services to translate your documents and subtitles with ease. '
+            'Created with using NiceGUI.'
